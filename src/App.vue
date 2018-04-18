@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="scoreBoard">
-      <span>O has {{ wins.O }} wins</span>
-      <h2>Score Board</h2>
-      <span>X has {{ wins.X }} wins</span>
+      <span>O tiene {{ wins.O }} victorias</span>
+      <h2>PUNTAJE</h2>
+      <span>X tiene {{ wins.X }} victorias</span>
     </div>
     <div id="app">
       <div id="details">
-        <h1>Tic Tac Toe</h1>
-        <h2>Match #{{ matches + 1 }}</h2>
+        <h1>Gato</h1>
+        <h2>  Partida #{{ matches + 1 }}</h2>
       </div>
       <grid></grid>
-      <button class="restart" @click="restart">Restart</button>
+      <button class="restart" @click="restart">Volver a jugar :)</button>
     </div>
   </div>
 </template>

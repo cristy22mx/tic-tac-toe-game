@@ -82,12 +82,12 @@ export default {
   		} else if (this.gameStatus === 'draw') {
   			this.gameStatusColor = 'statusDraw'
 
-  			this.gameStatusMessage = 'Draw !'
+  			this.gameStatusMessage = '¡Empate!'
   			
   			return
   		}
 
-			this.gameStatusMessage = `${this.activePlayer}'s turn`
+			this.gameStatusMessage = `El turno de ${this.activePlayer}`
   	}
   },
 
@@ -211,5 +211,8 @@ export default {
 
 .statusDraw {
 	background-color: #9b59b6;
+}
+body {
+	background-image: url(../assets/image/cats.jpg);
 }
 </style>
